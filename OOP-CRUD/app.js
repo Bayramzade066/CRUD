@@ -78,11 +78,11 @@ function onDelete(td){
 //reset the data
 
 function resetForm(){
-    document.getElementById('name').value='';
-    document.getElementById('surname').value='';
-    document.getElementById('dateOfBirth').value='';
-    document.getElementById('age').value='';
-    document.getElementById('startTime').value='';
-    document.getElementById('endTime').value='';
+    document.querySelector('#name').value='';
+    document.querySelector('#surname').value='';
+    document.querySelector('#dateOfBirth').value='';
+    document.querySelector('#age').value='';
+    document.querySelector('#startTime').value='';
+    document.querySelector('#endTime').value='';
     
 }
