@@ -1,0 +1,80 @@
+*{
+    font-size: 14px;
+}
+body{
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.basliq {
+    text-align: center;
+    padding: 2%;
+    border: 3px solid gray;
+    border-radius: 4px;
+    margin-bottom: 3%;
+}
+.align-center{
+    text-align: center;
+}
+h3{
+    font-size: 240%;
+    font-family: fantasy;
+    border-bottom: 1px solid cornflowerblue;
+}
+table{
+    width: 100%;
+    border: 1px solid gray;
+}
+tr{
+ border-bottom: 1px solid gray;
+}
+tr td{
+    margin-left: 30px;
+}
+th{
+    padding: 0.4%;
+    border: 2px solid gray;
+    text-align: start;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: gray;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.form_action--button{
+    margin-left: 7%;
+}
+.inputdu{
+    margin-top: 10%;
+    padding: 1% 12%;
+}
+.form-label{
+    margin:1% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.form-label label{
+    text-align: center;
+}
+.hide{
+    padding: 2%;
+    margin: 4%;
+    margin-left: 40%;
+}
+.hidebutton1{
+    padding: 1% 5%;
+
+}
+.tbody:last-child{
+    text-align: center;
+}
