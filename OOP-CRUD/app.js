@@ -12,7 +12,7 @@ form.addEventListener("submit", (e) => {
     resetForm();
 })
 
-// read the data
+// Read the data 
 
 function readFormData(){
     var formData = {};
@@ -25,7 +25,8 @@ function readFormData(){
     return formData;
 }
 
-// insert data
+// Insert data
+
 function insertNewRecord(data){
     var table = document.getElementById("storeList").getElementsByTagName('tbody')[0];
     var newRow = table.insertRow(table.length);
