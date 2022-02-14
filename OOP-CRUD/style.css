@@ -40,7 +40,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: gray;
+    background-color: rgb(158, 155, 155);
     border-radius: 3px;
     cursor: pointer;
 }
