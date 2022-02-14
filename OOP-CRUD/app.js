@@ -1,5 +1,6 @@
 let form = document.getElementById("form");
 var selectedRow = null; 
+
 form.addEventListener("submit", (e) => {
     e.preventDefault();
     var formData = readFormData();
