@@ -33,7 +33,7 @@ tr td{
 }
 th{
     padding: 0.4%;
-    border: 2px solid gray;
+    border: 2px solid rgb(158, 155, 155);
     text-align: start;
 }
 button{
