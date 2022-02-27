@@ -45,7 +45,7 @@ function insertNewRecord(data){
     var cell7 = newRow.insertCell(6);
         cell7.innerHTML = `<button onClick='onEdit(this)' class='hidebutton1 hide'>Edit</button> <button onClick= 'onDelete(this)' class='hidebutton2 hide'>Delete</button>`;
 }
-// edit the data
+// Edit the data
 function onEdit(td){
     selectedRow = td.parentElement.parentElement;
     document.getElementById('name').value = selectedRow.cells[0].innerHTML;
@@ -65,7 +65,7 @@ function updateRecord(formData){
     selectedRow.cells[5].innerHTML = formData.endTime;
 };
 
-//delete the data
+//Delete the data
 
 function onDelete(td){
     if(confirm('do you want to delete this student?')){
@@ -76,7 +76,7 @@ function onDelete(td){
 }
 
 
-//reset the data
+//Reset the data
 
 function resetForm(){
     document.querySelector('#name').value='';
