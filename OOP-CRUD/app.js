@@ -75,7 +75,6 @@ function onDelete(td){
     resetForm();
 }
 
-
 //Reset the data
 
 function resetForm(){
